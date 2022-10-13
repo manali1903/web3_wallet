@@ -1,11 +1,15 @@
 {
-  "name": "@web3-wallet/web3-wallets",
-  "version": "1.1.0",
-  "private": false,
-  "description": "Universal interface for web3 wallets",
+  "name": "@manali1903/web3_wallet",
+  "version": "1.3.0",
+  "description": "Way to Web3 wallets",
   "author": "Manali",
+  "private": false,
   "license": "MIT",
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:manali1903/web3_wallet.git",
+    "directory": "@manali1903/web3_wallet"
+  },
   "keywords": [
     "blockchain",
     "ethereum",
@@ -40,8 +44,8 @@
     "/build"
   ],
   "engines": {
-    "node": ">=16",
-    "npm": ">=7"
+    "node": ">=18",
+    "npm": ">=8"
   },
   "scripts": {
     "clean": "shx rm -rf ./build",
@@ -55,11 +59,11 @@
     "test:treeshake": "agadoo"
   },
   "publishConfig": {
-    "registry": ""
+    "registry": "https://registry.npmjs.org/"
   },
   "peerDependencies": {
     "ethers": "^5.6.8",
-    "react": "^18.1.0"
+    "react": "^18.2.0"
   },
   "dependencies": {
     "@coinbase/wallet-sdk": "^3.3.0",
@@ -70,13 +74,14 @@
     "@gnosis.pm/safe-apps-sdk": "^7.8.0",
     "@keplr-wallet/cosmos": "^0.9.9",
     "@keplr-wallet/types": "^0.10.13",
+    "@manali1903/web3_wallet": "^1.3.0",
     "@metamask/providers": "^8.1.1",
     "@solana/spl-name-service": "^0.1.4",
     "@solana/wallet-adapter-base": "^0.9.9",
     "@solana/wallet-adapter-phantom": "^0.9.8",
     "@solana/web3.js": "^1.43.5",
     "@tanstack/react-query": "^4.1.3",
-    "@walletconnect/web3-provider": "^1.7.8",
+    "@walletconnect/web3-provider": "^1.8.0",
     "ismobilejs": "^1.1.1",
     "long": "^5.2.0",
     "rango-sdk": "^0.0.5"
